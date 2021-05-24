@@ -1,0 +1,9 @@
+body{
+    padding: 30px;
+    background-color: white;
+    user-select: none;
+}
+
+#main{
+    text-align: center !important;
+}

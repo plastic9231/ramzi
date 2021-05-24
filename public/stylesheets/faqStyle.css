@@ -1,0 +1,26 @@
+body{
+    padding: 30px;
+    background-color: white;
+    user-select: none;
+}
+
+h3{
+    font-size: 21px !important;
+    font-weight: bold !important;
+}
+
+.top{
+    margin: 6%;
+    text-align: center;
+}
+
+.multi{
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 15px;
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+
+}
