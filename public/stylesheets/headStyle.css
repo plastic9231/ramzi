@@ -1,0 +1,42 @@
+header{ padding: 5px;}
+
+header a{text-decoration: none; color: black;}
+
+h1{
+    user-select: none;
+}
+
+/* 오른쪽 상단 */
+#top_menu{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    color: black;
+    word-spacing: 5px;
+    user-select: none;
+}
+#top_menu a{color: black;}
+
+/* nav 영역 */
+nav{margin-top: 10px; margin-bottom: 50px; user-select: none;}
+
+nav ul{
+    list-style: none;
+    border-top: 1px solid red;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li{
+    display: inline;
+    letter-spacing: .3em;
+    margin-left: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 3em;
+}
+
+nav ul a:hover{ text-decoration: underline;}

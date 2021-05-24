@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <input id="inputJson" type="hidden" value="<%=JSON.stringify(user_test)%>">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        var JsonData = document.getElementById("inputJson");
+        $("#inputJson").remove();
+        var page = JSON.parse(JsonData.value);
+        console.log(page);
+    </script>
+</head>
+<body>
+<h1><%= title %></h1>
+<p>test-out : <p id="input"></p></p>
+<p>end</p>
+
+<script>
+    $("#input").text(page[0].email);
+</script>
+
+</body>
+</html>
