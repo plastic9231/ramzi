@@ -1,0 +1,106 @@
+*{margin: 0; padding: 0;}
+
+body{
+    padding: 30px;
+    background-color: white;
+    margin-left: 300cm;
+}
+
+/* 왼쪽 메뉴*/
+aside#left{
+    float: left;
+    width: 20em;
+    margin-right: 1em;
+}
+
+aside#left ul{ list-style: none;}
+
+a {text-decoration-line: none;}
+
+aside#left ul li{
+    background-color: white;
+    padding: 5px 20px;
+    border-bottom: 1px solid white;
+}
+
+
+aside#left > ul > li > a {display: block;padding: 14px 35px 14px 15px; color: inherit; font-size: 20px;background:white}
+aside#left > ul > li > ul > li > a {display: block;padding: 0 25px 5px 20px;color: black; font-size: 15px;background:white  no-repeat 95% 1px;}
+aside#left > ul > li > ul > li > a {color: black; background-color: white; }
+
+
+/* 가운데 */
+section#main{
+    float: left;
+    padding-right: 40px;
+}
+section#main img {
+    width: 1000px;
+    height: 350px;
+    object-fit: fill;
+}
+
+section#main ul{ list-style: none;}
+
+/* 오른쪽 */
+aside#right{
+    float: left;
+    padding: 10px;
+    width: 12em;
+}
+aside#right #shopcart{
+    margin-bottom: 30px;
+}
+
+/* 검색창 */
+div#검색창{
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    background: #ffffff;
+}
+
+input{
+    font-size: 15px;
+    width: 200px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    float: left;
+}
+
+button{
+    width: 50px;
+    height: 100%;
+    border: 0px;
+    background: black;
+    outline: none;
+    float: right;
+    color: white;
+}
+table.imsi {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    margin : 20px 10px;
+    width: 50%;
+}
+table.imsi th {
+    width: 1px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+table.imsi td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+table.imsi li {
+    line-height: 30px;
+    list-style:none;
+}
